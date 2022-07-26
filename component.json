@@ -1,0 +1,21 @@
+{
+  "title": "EMAILNODEJS",
+  "description": "Send emails via node js",
+  "docsUrl": "",
+  "buildType": "docker",
+  "credentials": {
+    "fields": {}
+  },
+  "triggers": {
+    "emailnodejs": {
+      "title": "Send an email",
+      "main": "./lib/triggers/processTrigger.js"
+    }
+  },
+  "actions": {
+    "getDataAction": {
+      "title": "Send information to another proccess",
+      "main": "./lib/actions/testAction.js"
+    }
+  }
+}
